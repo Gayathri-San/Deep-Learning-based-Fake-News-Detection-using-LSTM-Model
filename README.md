@@ -26,10 +26,10 @@ To develop an LSTM-based model that can classify news articles as real or fake t
 - Split the dataset into training and testing sets for model building and evaluation
 
 ### **MODEL ARCHITECTURE**
-- #### **INPUT LAYER** : The input layer accepts padded sequential data, organizes it into a defined shape and passes it to the LSTM layer, where pattern extraction take place for processing.
-- EMBEDDING LAYER : The embedding layer transforms each word vector representation, where similar words have similar values, helping the LSTM understand relationships in the sequence.
-- LSTM LAYER : The LSTM layer analyzes sequences by using memory cells and gating mechanisms to selectively retain important information, discard irrelevant data, and capture long-term dependencies, enabling pattern learning in sequential data.
-- DENSE LAYER : The dense layer receives the extracted features from the LSTM, applies activation functions to combine and transform them, and generates the final output such as predicted value of the class
+- **INPUT LAYER**     : The input layer accepts padded sequential data, organizes it into a defined shape and passes it to the LSTM layer, where pattern     extraction take place for processing.
+- **EMBEDDING LAYER** : The embedding layer transforms each word vector representation, where similar words have similar values, helping the LSTM understand relationships in the sequence.
+- **LSTM LAYER**      : The LSTM layer analyzes sequences by using memory cells and gating mechanisms to selectively retain important information, discard irrelevant data, and capture long-term dependencies, enabling pattern learning in sequential data.
+- **DENSE LAYER**     : The dense layer receives the extracted features from the LSTM, applies activation functions to combine and transform them, and generates the final output such as predicted value of the class
 - 
 
 
