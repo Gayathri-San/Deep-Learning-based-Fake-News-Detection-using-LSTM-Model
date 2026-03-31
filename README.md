@@ -48,8 +48,14 @@ To develop an LSTM-based model that can classify news articles as real or fake t
 
 ### **CONFUSION MATRIX**
 <p align="center">
-  <img width="450" height="450" alt="cm" src="https://github.com/user-attachments/assets/86ea0b8e-f153-4c04-8de6-a30f6c33d285" />
+  <img width="400" height="400" alt="cm" src="https://github.com/user-attachments/assets/86ea0b8e-f153-4c04-8de6-a30f6c33d285" />
 </p>
+
+### **CLASSIFICATION REPORT**
+<p align="center">
+  <img width="400" height="500" alt="cr" src="https://github.com/user-attachments/assets/9356a923-e8a3-432e-9c8e-fefa8ca60bd7" />
+</p>
+
 ### **MODEL PERFORMANCE**
 - The model achieved an overall accuracy of 95%, indicating strong performance on the dataset. 
 - The precision is 0.97 for class 0 and 0.94 for class 1, showing that most predicted values are correct. 
